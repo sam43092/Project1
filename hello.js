@@ -6,11 +6,12 @@ http.createServer(function(request, response){
         +"<head>"
         +"</head>"
         +"<body>"
-        +"<p> Hello, this is your dog.</p>"
-        +"<p></p>"
+        +"<title>My Dog</title>"
+        +"<p> Hello, this is your dog, Max.</p>"
+        +"<p><b>Please feed me!</p>"
         +"</body>"
-        + "</html>";
+        +"</html>";
     response.write(html);
     response.end();
-    }).listen(8000);
+    }).listen(8080);
 console.log('Listening on port 8080...');
