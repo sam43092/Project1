@@ -5,10 +5,13 @@ http.createServer(function(request, response){
     let html = "<html>"
         +"<head>"
         +"</head>"
-        +"<body>"
+        +"<body bgcolor='#D3D3D3'>"
         +"<title>My Dog</title>"
         +"<p> Hello, this is your dog, Max.</p>"
-        +"<p><b>Please feed me!</p>"
+        +"<p><b>Q:</b> Why are dogs like phones?</br>"
+        +" <b>A:</b> Because they have collar IDs!</p>"
+        +"<p><b>Q:</b> What do you get when you cross a sheepdog with a rose?</br>"
+        +"<b>A:</b> A collie-flower!"
         +"</body>"
         +"</html>";
     response.write(html);
