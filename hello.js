@@ -8,6 +8,7 @@ http.createServer(function(request, response){
         +"<body bgcolor='#D3D3D3'>"
         +"<title>My Dog</title>"
         +"<p> Hello, this is your dog, Max.</p>"
+        +"</br></br>"
         +"<p><b>Q:</b> Why are dogs like phones?</br>"
         +" <b>A:</b> Because they have collar IDs!</p>"
         +"<p><b>Q:</b> What do you get when you cross a sheepdog with a rose?</br>"
